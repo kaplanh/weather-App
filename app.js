@@ -131,19 +131,19 @@ const weatherDataDom = (data) => {
   //   https://openweathermap.org/img/wn/10d@2x.png
 
   //! APİ'den havanın durumuna göre iconlar çağırdık img'nin srcsine ekledik.
-  // const cardImg = document.querySelector(".card-img-top");
-  // cardImg.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+  const cardImg = document.querySelector(".card-img-top");
+  cardImg.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
   // ! 2.yöntem ise havanın durumuna göre if else if ile hava nasılsa ona göre lokalimizdeki resimleri images srcsine ekledik.
-  if (main == "Clouds") {
-    cardImages.src = "images/clouds.png";
-  } else if (main == "Clear") {
-    cardImages.src = "images/clear.png";
-  } else if (main == "Rain") {
-    cardImages.src = "images/rain.png";
-  } else if (main == "Drizzle") {
-    cardImages.src = "images/drizzle.png";
-  } else if (main == "Mist") {
-    cardImages.src = "images/mixt.png";
-  }
-};
+//   if (main == "Clouds") {
+//     cardImages.src = "images/clouds.png";
+//   } else if (main == "Clear") {
+//     cardImages.src = "images/clear.png";
+//   } else if (main == "Rain") {
+//     cardImages.src = "images/rain.png";
+//   } else if (main == "Drizzle") {
+//     cardImages.src = "images/drizzle.png";
+//   } else if (main == "Mist") {
+//     cardImages.src = "images/mixt.png";
+//   }
+// };
