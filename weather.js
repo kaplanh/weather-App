@@ -5,7 +5,7 @@ const list = document.querySelector(".ajax-section .cities");
 
 localStorage.setItem(
     "apiKey",
-    EncryptStringAES("525ec9a980c68d11748eb917c3b824c9")
+    EncryptStringAES("4d8fb5b93d4af21d66a2948710284366")
 );
 
 form.addEventListener("submit", (e) => {
