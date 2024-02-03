@@ -1,7 +1,4 @@
 # weather-App
-[Click Me!]( https://kaplanh.github.io/weather-App/)
-
-# Crypto Coin App
 
 **How does my project look**
 
