@@ -81,7 +81,7 @@ const weatherDataDom = (data) => {
   container.innerHTML = `
   <div class="card p-4 text-center " style="width: 18rem;">
   <!--* Resim Alanı -->
-  <img src="" class="card-img-top mx-auto icon-img" alt="...">
+  <img src="" class="card-img-top  mx-auto icon-img" alt="...">
   <!--* Şehir-Ulke-Alani -->
   <div class="card-body">
     <h2 class="card-title " id="şehir-adi">${name} </h2><span class="ülke" id="ülke">${country}</span>
@@ -104,7 +104,7 @@ const weatherDataDom = (data) => {
     </li>
   </ul>
   
-  <div class="card-body d-flex justify-content-between border  p-4 ">
+  <div class="card-body d-flex justify-content-between   p-4 ">
   <div class="rüzgar-hizi d-flex align-items-center gap-1 ">
   <img src="images/rüzgar.png" alt="" width="40%" class="mt-4">
                <div class=" mt-4">
@@ -126,13 +126,14 @@ const weatherDataDom = (data) => {
   </div>
   
   </div>
+  
 
   `;
   //   https://openweathermap.org/img/wn/10d@2x.png
 
   //! APİ'den havanın durumuna göre iconlar çağırdık img'nin srcsine ekledik.
   const cardImg = document.querySelector(".card-img-top");
-  cardImg.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+  cardImg.src = `https://openweathermap.org/img/wn/${icon}.png`;
 
   // ! 2.yöntem ise havanın durumuna göre if else if ile hava nasılsa ona göre lokalimizdeki resimleri images srcsine ekledik.
   //   if (main == "Clouds") {
