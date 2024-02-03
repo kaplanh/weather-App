@@ -3,7 +3,7 @@
 **How does my project look**
 
 
-![crypto coin app]()
+![weather app](https://github.com/kaplanh/weather-App/assets/101884444/58913178-5064-44d7-812d-0e8024a343ac)
 
 [Live link!](https://kaplanh.github.io/weather-App/)
 
